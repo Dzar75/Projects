@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Defarra ZAR</title>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Playfair+Display:wght@500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="noise"></div>
+
+    <header class="nav">
+        <span class="logo">DEFARRA ZAR - PHOTOGRAPHY</span>
+        <div class="menu-toggle" id="menuToggle">☰</div>
+
+        <nav id="navMenu">
+            <a href="#profile" class="nav-link active">PROFILE</a>
+            <a href="#about" class="nav-link">ABOUT</a>
+            <a href="#skills" class="nav-link">SKILLS</a>
+            <a href="#projects" class="nav-link">PROJECTS</a>
+            <a href="#contact" class="nav-link">CONTACT</a>
+        </nav>
+    </header>
+
+    <main class="scroll-container">
+
+        <section id="profile" class="container scroll">
+            <div class="profile-grid">
+                <div>
+                    <span>01</span>
+                    <h1>
+                        DEFARRA<br>
+                        ZAR<br>
+                        PHOTOGRAPHY
+                    </h1>
+                    <p>
+                        Status : Undergraduate Student<br>
+                        Focus : Photography Development
+                    </p>
+                </div>
+
+                <div class="profile-photo">
+                    <img src="img/profiles/20230122094551_IMG_4932.JPG" alt="Defarra Zar">
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="container scroll">
+            <span>02</span>
+            <span class="tag">ABOUT ME</span>
+            <h2>Latar Belakang</h2>
+            <p>
+                Saya adalah seorang mahasiswa yang memiliki ketertarikan besar pada dunia fotografi. Bagi saya fotografi
+                bukan hanya tentang mengambil gambar, tetapi tentang menangkap suasana, emosi, dan cerita yang
+                tersembunyi di balik setiap momen. Minat ini terus mendorong saya untuk belajar lebih dalam mengenai
+                teknik pengambilan gambar, komposisi, pencahayaan, hingga proses editing.
+            </p>
+            <p>
+                Sebagai fotografer pemula, saya terus mengembangkan kemampuan saya melalui eksplorasi dan eksperimen di
+                berbagai jenis pemotretan, mulai dari street photography, nature photography, potret, hingga foto
+                bertema estetik. Saya percaya bahwa setiap hasil karya merupakan bagian dari proses belajar, dan saya
+                berusaha untuk selalu menghadirkan karakter dan gaya saya sendiri dalam setiap foto yang saya ambil.
+            </p>
+        </section>
+
+        <section id="skills" class="container scroll">
+            <span>03</span>
+            <span class="tag">SKILLS</span>
+            <h2>Photography Focus</h2>
+            <ul>
+                <li>Street Photography</li>
+                <li>Nature Photography</li>
+                <li>Lighting & Composition</li>
+                <li>Cinematography</li>
+            </ul>
+        </section>
+
+        <section id="projects" class="container scroll projects">
+            <span>04</span>
+            <span class="tag">PROJECT</span>
+
+            <div class="projects-row">
+                <img src="img/projects/AA1.JPG" alt="Photo 1">
+                <div>
+                    <h3>Atma Asta - Club Dangdut Racun</h3>
+                    <p>
+                        Gambar ini menunjukan performer yang berdiri di depan latar tipografi besar, menekankan
+                        identitas visual pertunjukan. Posisi tubuh dan fokus pandangannya menguatkan kesan dominasi
+                        suara dan kontrol penuh terhadap suasana panggung.
+                    </p>
+                </div>
+            </div>
+
+            <div class="projects-row">
+                <img src="img/projects/AA2.JPG" alt="Photo 2">
+                <div>
+                    <h3>Atma Asta - Juicy Luicy</h3>
+                    <p>
+                        Pose tangan terangkat dan tatapan tegas memberikan makna tentang kebebasan berekspresi di atas
+                        panggung. Foto ini mempresentasikan bagaimana seorang vokalis menguasai panggung dan membangun
+                        koneksi kuat dengan penonton.
+                    </p>
+                </div>
+            </div>
+
+            <div class="projects-row">
+                <img src="img/projects/AA7.JPG" alt="Photo 3">
+                <div>
+                    <h3>Atma Asta - Raisa</h3>
+                    <p>
+                        Seorang perempuan berdiri di atas panggung dengan cahaya yang mengelilinginya, bernyanyi sepenuh
+                        hati, seolah sedang menuangkan perasaan dan cerita hidupnya kepada semua orang yang
+                        mendengarnya.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="container scroll center">
+            <span>05</span>
+            <span class="tag">CONTACT</span>
+            <h2>Contact Me</h2>
+
+            <form id="contactForm">
+                <input id="name" type="text" placeholder="Nama Lengkap" required>
+                <input id="email" type="email" placeholder="Alamat Email" required>
+                <textarea id="message" placeholder="Pesanmu" required></textarea>
+
+                <div class="contact-actions">
+                    <button type="button" data-type="whatsapp">WhatsApp</button>
+                    <button type="button" data-type="email">Email</button>
+                    <button type="button" data-type="instagram">Instagram</button>
+                </div>
+            </form>
+
+            <footer>
+                <p>© 2025 Defarra Zulafan Adna Rusando</p>
+            </footer>
+
+        </section>
+
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
